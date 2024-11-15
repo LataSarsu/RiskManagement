@@ -1,0 +1,13 @@
+{
+  "name": "approuter",
+  "dependencies": {
+    "@sap/approuter": "^17.0.0"
+  },
+  "welcomeFile":"app/launchpad.html",
+  "engines": {
+    "node": "^22.0.0"
+  },
+  "scripts": {
+    "start": "node node_modules/@sap/approuter/approuter.js"
+  }
+}
